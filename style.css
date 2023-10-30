@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.meni{
+    overflow: hidden;
+    background-color: rgb(46, 44, 42);
+}
+.meni a{
+    color: rgb(236, 236, 236);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+}
+@media screen and (max-width:300px){
+    .meni a{
+        float: none;
+        width: 100%;
+    }
+    }
+#prvibody{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#menibody{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100px;
+    background: rgb(53, 50, 46);
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+}
+nav{
+    float: center;
+    line-height: 100px;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0px 100px;
+    position: relative;
+}
+
+nav a:hover{
+    color: #EDCAA1;
+    transition: 500ms;
+}
+
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #EDCAA1;
+    width: 0%;
+    position: absolute;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+.naslov-pozadina{
+    width: 100%;
+    height: 500px;
+    top: 100px;
+    position: fixed;
+    background-image: url(pekara2.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.naslov-pozadina h2{
+    
+    padding-top: 8%;
+    font-size: 70px;
+    letter-spacing: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: rgb(243, 243, 243);
+}
+ .naslov-pozadina #polje1{
+    
+    padding-top: 4%;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: rgb(243, 243, 243);
+   
+}
+.naslov-pozadina #polje1 a{
+    text-decoration: none;
+    padding-top: 4%;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: rgb(243, 243, 243);
+}
+.sadrzaj{
+    width: 100%;
+    position: relative;
+    top: 450px;
+    background: rgb(243, 243, 243);
+}
+
+.sadrzaj h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.sadrzaj p{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 25px;
+    padding: 2% 0;
+    font-family: tekst;
+}
+
+#kontakt-body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(pekara4.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    
+}
+
+.kontakt{
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 550px;
+    background: rgba(0,0,0,0.8);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.kontakt .kontaktnaslov h1{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 6px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.kontakt-polje{
+    display: flex;
+}
+
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+}
+
+.input-fields,.msg{
+  width: 48%;
+}
+
+.input-fields .input,.msg textarea{
+  font-family: tekst;
+  font-size: 20px;
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid #EDCAA1;
+  padding: 10px;
+  color: white;
+  width: 100%;
+}
+
+.msg textarea{
+    height: 212px;
+}
+.btn{
+    margin-top: 13px;
+    
+}
+.btn a{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #EDCAA1;
+    text-align: center;
+    padding: 15px 40px 15px 40px;
+    
+    border-radius: 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+.msg textarea{
+    height: 254px;
+}
+
+.input-fields,.msg{
+    width: 100%;
+}
+
+.prazan{
+    height: 20em;
+}
+
+.prazan1{
+    height:110px;
+}
+.prazan2{
+    height:300px;
+}
+
+.prvi{
+    width: 75%;
+    margin: 0 auto;
+}
+.prvaslika{
+    float: left;
+    width: 30%;
+}
+.drugi{
+    width: 75%;
+    margin: 0 auto;
+}
+.drugaslika{
+    float: right;
+    width: 30%;
+}
+
+.tezitekst{
+    padding: 2% 0;
+    font-family: tekst;
+    font-size: 25px;
+}
+
+.vizijatekst{
+    padding: 2% 0;
+    font-family: tekst;
+    font-size: 25px;
+}
+
+
+
+#menibody{
+ 
+    background-image: url(pekara4.jpg);
+    
+    
+}
+.tabelabr1{
+    float: left;
+    margin-left: 25%;
+}
+
+.tabelabr2{
+float: right;
+margin-right: 25%;
+}
+
+.tabelabr1  td{
+border: 6px solid #EDCAA1;
+padding: 10px;
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+background: rgb(243, 243, 243);
+box-shadow: 5px 5px rgb(53, 50, 46);
+border-radius: 15px;
+}
+
+.tabelabr2  td{
+border: 6px solid #EDCAA1;
+padding: 10px;
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+background: rgb(243, 243, 243);
+box-shadow: 5px 5px rgb(53, 50, 46);
+border-radius: 15px;
+}
+
+#naslov1{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+text-transform: uppercase;
+text-align: center;
+color: black;
+background: rgb(243, 243, 243);
+border-radius: 15px;
+padding: 6px;
+box-shadow: 5px 5px #EDCAA1;
+margin: 10px;
+}
+#naslov2{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+text-transform: uppercase;
+text-align: center;
+color: black;
+background: rgb(243, 243, 243);
+border-radius: 15px;
+padding: 6px;
+box-shadow: 5px 5px #EDCAA1;
+margin: 10px;
+}
+
+.tabelabr1  a{
+text-decoration: none;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+background-color: #EDCAA1;
+border-radius: 7px;
+padding: 7px;
+box-shadow: 3px 3px rgb(53, 50, 46);
+}
+.tabelabr2  a{
+text-decoration: none;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+background-color: #EDCAA1;
+border-radius: 7px;
+padding: 7px;
+box-shadow: 3px 3px rgb(53, 50, 46);
+}
+
+.tabelabr1 tr :hover{
+background: #EDCAA1;
+transition: 250ms;
+}
+.tabelabr2 tr :hover{
+background: #EDCAA1;
+transition: 250ms;
+}
